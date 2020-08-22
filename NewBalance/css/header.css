@@ -1,0 +1,192 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+
+li{
+    list-style: none;
+}
+
+header{
+    height: 56px;
+    background: #ffffff;
+	position: relative;
+}
+
+header #logo{
+	width: 68px;
+	height: 56px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 42px;
+}
+
+header ul{
+    float: left;
+    line-height: 56px;
+}
+
+header ul li{
+    float: left;
+    margin-right: 30px;
+}
+
+#search input{
+    /* float: left; */
+	position: absolute;
+	top: 8px;
+	left: 790px;
+	width: 360px;
+	height: 38px;
+	border: 1px solid #e4e4e4;
+	outline: none;
+}
+
+#search a{
+	position: absolute;
+	left: 1120px;
+	top: 18px;
+	font-size: 20px;
+}
+
+#register{
+    /* float: left; */
+	position: absolute;
+	left: 1193px;
+	font-size: 14px;
+}
+
+#register span{
+	font-size: 30px;
+	position: relative;
+	top: 7px;
+}
+
+#register a{
+	line-height: 56px;
+	color: #000000;
+}
+
+#register a:hover{
+	color: #e51338;
+}
+
+#car{
+    /* float: left; */
+	position: absolute;
+	left: 1340px;
+	font-size: 12px;
+}
+
+#car span{
+	font-size: 30px;
+	position: relative;
+	top: 7px;
+}
+
+#car a{
+	line-height: 56px;
+	color: #000000;
+}
+
+#car a:hover{
+	color: #e51338;
+}
+
+/* #pull-down{
+	position: relative;
+} */
+
+.manAndwoman {
+	height: 286px;
+	width: 100%;
+	background: #ffffff;
+	display: none;
+	position: absolute;
+}
+
+.manAndwoman li{
+	margin-top: 18px;
+	float: left;
+}
+
+.manAndwoman li:nth-child(1){
+	margin-left: 190px;
+}
+
+.manAndwoman .list{
+	height: 234px;
+	width: 160px;
+	border-right: 1px solid silver;
+	font-size: 13px;
+	margin-right: 10px;
+}
+
+.manAndwoman .list:nth-child(3){
+	border-right: none;
+	margin-right: 64px;
+}
+
+.manAndwoman .list p{
+	line-height: 18px;
+}
+
+.manAndwoman .list p:nth-child(1){
+	margin-bottom: 7px;
+}
+
+.manAndwoman li a img{
+	width: 180px;
+	height: 180px;
+	margin-right: 18px;
+}
+
+.manAndwoman li p {
+	text-align: center;
+	font-size: 13px;
+}
+
+.manAndwoman li p a{
+	color: #000000;
+}
+
+.boyAndgirl {
+	height: 286px;
+	width: 100%;
+	background: #ffffff;
+	display: none;
+	position: absolute;
+}
+
+.boyAndgirl li{
+	margin-top: 18px;
+	float: left;
+}
+
+.boyAndgirl .list{
+	height: 234px;
+	width: 280px;
+	font-size: 13px;
+	margin-left: 380px;
+}
+
+.boyAndgirl .list p{
+	line-height: 18px;
+}
+
+.boyAndgirl .list p:nth-child(1){
+	margin-bottom: 7px;
+}
+
+.boyAndgirl li a img{
+	width: 180px;
+	height: 180px;
+	margin-right: 18px;
+}
+
+.boyAndgirl .lists p {
+	text-align: center;
+	font-size: 13px;
+}
+
+.boyAndgirl li p a{
+	color: #000000;
+}
